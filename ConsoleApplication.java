@@ -7,4 +7,7 @@ class ConsoleApplication {
     static void print(String arg){
         System.out.println(arg);
     }
+    static String upper(String arg){
+        return arg.toUpperCase();
+    }
 }
