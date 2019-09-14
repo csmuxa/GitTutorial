@@ -1,5 +1,6 @@
 class ConsoleApplication {
     int a;
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("first app");
@@ -12,7 +13,8 @@ class ConsoleApplication {
     static String normalize(String arg) {
         return arg.toLowerCase().trim();
     }
-    static String upper(String arg){
+
+    static String upper(String arg) {
         return arg.toUpperCase();
     }
 }
